@@ -1,0 +1,23 @@
+.email-dialog {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .MuiPaper-root {
+    padding: 1em;
+    outline: solid rgb(26, 39, 177) 1px;
+    padd .customer-inputs {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 3%;
+      gap: 3vh;
+
+      .input-button-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+      }
+    }
+  }
+}

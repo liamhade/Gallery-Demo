@@ -1,0 +1,17 @@
+.header-container {
+  height: 120px;
+  background: white;
+  //   position: sticky;
+  top: 0;
+  z-index: 1000;
+  border-bottom: 1px solid #1a307a20;
+  .MuiButtonBase-root {
+    text-transform: "none";
+    .MuiTypography-root {
+      font-size: 18px;
+    }
+    :hover {
+      background: #00000000;
+    }
+  }
+}
