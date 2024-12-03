@@ -12,32 +12,9 @@ export default function page() {
   // const [allShowImages, setAllShowImages] = useState<any>({ "": [] });
 
   const allShowImages = images;
-
   const [imagesAreLoaded, setImagesAreLoaded] = useState(true);
-  const [showName, setShowName] = useState("test");
-
-
-  // useEffect(() => {
-  //   async function getAllShowsAndImages() {
-  //     try {
-  //       const resp = await GalleryService.getState();
-  //       const resp_json = await resp.json();
-  //       setAllShowImages(resp_json);
-  //     } catch (error) {
-  //       console.error("Error fetching gallery state:", error);
-  //     } finally {
-  //       setImagesAreLoaded(true);
-  //     }
-  //   }
-  //   getAllShowsAndImages();
-  // }, []);
-
-  // useEffect(() => {
-  //   if (imagesAreLoaded && Object.keys(allShowImages).length > 0) {
-  //     const default_show_name = Object.keys(allShowImages)[0];
-  //     setShowName(default_show_name);
-  //   }
-  // }, [allShowImages, imagesAreLoaded]);
+  type ShowName = "Autumn" | "Winter" | "Spring" | "Summer";
+  const [showName, setShowName] = useState<ShowName>("Autumn");
 
   return (
     <PageContainer>

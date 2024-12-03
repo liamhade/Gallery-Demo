@@ -1,14 +1,7 @@
 import "./globals.scss";
 import "./_styles/cuo.scss";
-import "./_styles/fullCalendar.scss";
-import type { Metadata } from "next";
 import AppAuthProvider from "./_utils/providers/AppAuthProvider";
 import AppThemeProvider from "./_utils/providers/AppThemeProvider";
-
-export const metadata: Metadata = {
-  title: "Underground Overground Comedy",
-  description: "Underground Overground Comedy Waitlist",
-};
 
 export default async function RootLayout({
   children,
