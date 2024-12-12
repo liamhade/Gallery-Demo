@@ -79,7 +79,7 @@ export default function EmailDialog({
           <InstagramInput instagram={instagram} setInstagram={setInstagram} />
 
           <Typography fontSize={10} fontStyle={"italic"}>
-            This information is neither saved nor sent anywhere. This popup is merely for demenstration purposes.
+            This information is neither saved nor sent anywhere. This popup is merely for demonstration purposes.
           </Typography>
 
           <Grid container justifyContent={"center"}>
