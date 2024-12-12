@@ -30,10 +30,6 @@ export default function page() {
           imageItems={allShowImages[showName]}
         />
       </Grid>
-
-      <Grid container justifyContent={"center"}>
-        <Typography>@ ComedyUO 2024</Typography>
-      </Grid>
     </PageContainer>
   );
 }
